@@ -17,14 +17,13 @@ body {
   font-family: 'Circular', sans-serif;
 }
 
-.header-bar {
-  display: flex;
-  justify-content: space-between;
-}
 
-#anthony {
+
+.header-bar {
   text-align: center;
 }
+
+
 
 
 
