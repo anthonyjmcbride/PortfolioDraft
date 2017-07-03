@@ -19,8 +19,11 @@ body {
 
 
 
-.header-bar {
+header {
   text-align: center;
+  border-width: medium;
+  border-style: solid;
+  font-size: 36px;
 }
 
 
