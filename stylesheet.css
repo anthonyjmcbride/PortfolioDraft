@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  /*Gets rid of bullet points on lists*/
+}
+
+a {
+  text-decoration: none;
+  /*gets rid of the underline under links*/
+}
+
+
+body {
+  font-family: 'Circular', sans-serif;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#anthony {
+  text-align: center;
+}
+
+
+
+@media only screen and (mid-width: 768px){
+    /*events*/
+    #events {
+        display: flex;
+    }
+}
