@@ -23,7 +23,6 @@ body {
   text-align: center;
   padding: 20px 0 20px 0;
 }
-
 .nav > li {
   display: inline-block;
   padding-right: 50px;
@@ -35,25 +34,11 @@ body {
   color: #c1c1c1
 }
 
-
-.header {
-    width: 98.8%;
-    background-color: rgba(255, 255, 255, 0.7);
-    position: fixed;
-    margin-bottom: 100px;
-}
-
-header {
-  text-align: center;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgba(255, 255, 255, 0.7);
-  font-size: 36px;
-  padding: 10px;
-}
-
 .img-circle {
-  border-radius: 50%;
+  padding-top: 4px;
+  border-radius: 15%;
+  border: 5px;
+  border-color: black;
 }
 
 .profile-image {
