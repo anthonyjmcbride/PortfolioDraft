@@ -17,9 +17,37 @@ a {
 
 body {
   font-family: 'Circular', sans-serif;
+  border: 30px white solid;
+  margin: 1px;
+  /*background-image: url("wynavi.jpeg");*/
+
 }
 
-.nav {
+
+
+div.title-name {
+  margin: 235px 0 150px 0;
+  padding: 20px;
+  text-align: center;
+}
+p.name {
+  font-size: 5.0em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 15px;
+  color: black;
+  font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
+}
+p.job {
+  font-size: 2.0em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 15px;
+  color: black;
+  font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
+}
+
+/*.nav {
   background-color: white;
   color: black;
   text-align: center;
@@ -34,9 +62,68 @@ body {
 }
 .nav > li > a:hover {
   color: #c1c1c1
+}*/
+
+div.project-div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+}
+div.project-div2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
 }
 
-.img-circle {
+div.project1 {
+  /*border: 2px black solid;*/
+}
+.project1:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+div.project2 {
+  /*border: 2px black solid;*/
+}
+.project2:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+div.project3 {
+  /*border: 2px black solid;*/
+}
+.project3:hover {
+  color: white;
+  opacity: 0.7;
+}
+
+/*image styling */
+img.img-circle{
+  border-radius: 0%;
+}
+
+div.fa-angle-down {
+  padding-top: 21px;
+  padding-bottom: 70px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  font-size: 58px;
+  font-weight: bold;
+  padding: 0 20px 0 30px;
+  line-height: 1.5;
+}
+/*.img-circle {
   padding-top: 4px;
   border-radius: 50%;
   border: 5px;
@@ -45,7 +132,7 @@ body {
 
 .profile-image {
   text-align: center;
-}
+}*/
 
 .contact-info {
   text-align: center;
@@ -55,37 +142,42 @@ body {
  /* Style all font awesome icons */
  .fa {
    border-radius: 50%;
-     padding: 5px;
-     font-size: 18px;
-     width: 20px;
-     height: 20px;
-     text-align: center;
-     text-decoration: none;
+   margin-top: 35px;
+   padding: 15px;
+   font-size: 18px;
+   width: 20px;
+   height: 20px;
+   text-align: center;
+   text-decoration: none;
  }
 
  /* Add a hover effect if you want */
  .fa:hover {
      opacity: 0.7;
  }
- /* Facebook */
-.fa-facebook-official {
-    /*background: #3B5998;*/
-    /*color: white;*/
-  }
 
 /*social icons list*/
 .social-list {
   text-align: center;
+  /*display: flex;
+  justify-content: center;*/
+  padding: none;
+  margin-top: none;
 }
 .social-list > li {
+  text-align: center;
   display: inline-block;
   padding-right: 25px;
-  list-style: none;
+  padding-left: 25px;
+  font-size: 25px;
 }
 
 .social-list > li > a {
+  text-align: center;
   color: black;
 }
+
+
 
 
 
