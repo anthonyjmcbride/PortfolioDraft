@@ -19,5 +19,9 @@ $(document).ready(function() {
        'transform' : 'translate(0px,' + windowScroll /80 + '%)'
      });
 
+     $('.bio4').css({
+       'transform' : 'translate(0px,' + windowScroll /320 + '%)'
+     });
+
    });
 });

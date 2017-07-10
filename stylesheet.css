@@ -38,73 +38,48 @@ p.name {
   color: black;
   font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
 }
-p.job {
-  font-size: 2.0em;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin: 15px;
-  color: black;
-  font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
-}
-
-/*.nav {
-  background-color: white;
-  color: black;
+.contact-info {
   text-align: center;
-  padding: 20px 0 20px 0;
 }
-.nav > li {
+ /*social media icons*/
+
+ /* Style all font awesome icons */
+ .fa {
+   border-radius: 50%;
+   margin-top: 35px;
+   padding: 15px;
+   font-size: 18px;
+   width: 20px;
+   height: 20px;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ /* Add a hover effect if you want */
+ .fa:hover {
+     opacity: 0.7;
+ }
+
+/*social icons list*/
+.social-list {
+  text-align: center;
+  /*display: flex;
+  justify-content: center;*/
+  margin-top: none;
+  padding-right: 48px;
+}
+.social-list > li {
+  text-align: center;
   display: inline-block;
-  padding-right: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 25px;
 }
-.nav > li > a {
+
+.social-list > li > a {
+  text-align: center;
   color: black;
 }
-.nav > li > a:hover {
-  color: #c1c1c1
-}*/
-
-/*div.project-div {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 15px 0 15px;
-}
-div.project-div2 {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 15px 0 15px;
-}*/
-
-/*div.project1 {*/
-  /*border: 2px black solid;*/
-/*}
-.project1:hover {
-  color: white;
-  opacity: 0.7;
-}*/
-
-/*div.project2 {*/
-  /*border: 2px black solid;*/
-/*}
-.project2:hover {
-  color: white;
-  opacity: 0.7;
-}*/
-
-/*div.project3 {*/
-  /*border: 2px black solid;*/
-/*}
-.project3:hover {
-  color: white;
-  opacity: 0.7;
-}*/
-
-/*image styling */
-/*img.img-circle{
-  border-radius: 0%;
-}*/
 
 div.fa-angle-down {
   padding-right: 40px;
@@ -165,6 +140,15 @@ div.fa-angle-down {
   line-height: 1.5;
   /*background-color: #ffffff;*/
 }
+.bio4 {
+  font-size: 58px;
+  font-weight: bold;
+  padding: 0 20px 0 30px;
+  line-height: 1.5;
+  /*background-color: #ffffff;*/
+  text-align: center;
+  padding-bottom: 50px;
+}
 
 /*.img-circle {
   padding-top: 4px;
@@ -177,54 +161,73 @@ div.fa-angle-down {
   text-align: center;
 }*/
 
-.contact-info {
+/*p.job {
+  font-size: 2.0em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 15px;
+  color: black;
+  font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
+}*/
+
+/*.nav {
+  background-color: white;
+  color: black;
   text-align: center;
+  padding: 20px 0 20px 0;
 }
- /*social media icons*/
-
- /* Style all font awesome icons */
- .fa {
-   border-radius: 50%;
-   margin-top: 35px;
-   padding: 15px;
-   font-size: 18px;
-   width: 20px;
-   height: 20px;
-   text-align: center;
-   text-decoration: none;
- }
-
- /* Add a hover effect if you want */
- .fa:hover {
-     opacity: 0.7;
- }
-
-/*social icons list*/
-.social-list {
-  text-align: center;
-  /*display: flex;
-  justify-content: center;*/
-  margin-top: none;
-  padding-right: 48px;
-}
-.social-list > li {
-  text-align: center;
+.nav > li {
   display: inline-block;
-  padding-right: 25px;
-  padding-left: 25px;
-  font-size: 25px;
+  padding-right: 50px;
 }
-
-.social-list > li > a {
-  text-align: center;
+.nav > li > a {
   color: black;
 }
+.nav > li > a:hover {
+  color: #c1c1c1
+}*/
 
+/*div.project-div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+}
+div.project-div2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 15px;
+}*/
 
+/*div.project1 {*/
+  /*border: 2px black solid;*/
+/*}
+.project1:hover {
+  color: white;
+  opacity: 0.7;
+}*/
 
+/*div.project2 {*/
+  /*border: 2px black solid;*/
+/*}
+.project2:hover {
+  color: white;
+  opacity: 0.7;
+}*/
 
+/*div.project3 {*/
+  /*border: 2px black solid;*/
+/*}
+.project3:hover {
+  color: white;
+  opacity: 0.7;
+}*/
 
-
+/*image styling */
+/*img.img-circle{
+  border-radius: 0%;
+}*/
 
 /*.losange, .losange div {
   margin: 0 auto;
