@@ -16,8 +16,8 @@ a {
 
 
 body {
-  font-family: 'Circular', sans-serif;
-  border: 30px white solid;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  /*border: 30px #f5f5f5 solid;*/
   margin: 1px;
   /*background-image: url("wynavi.jpeg");*/
 
@@ -26,7 +26,7 @@ body {
 
 
 div.title-name {
-  margin: 235px 0 150px 0;
+  margin: 235px 0 180px 0;
   padding: 20px;
   text-align: center;
 }
@@ -64,7 +64,7 @@ p.job {
   color: #c1c1c1
 }*/
 
-div.project-div {
+/*div.project-div {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -75,38 +75,38 @@ div.project-div2 {
   display: flex;
   justify-content: space-between;
   padding: 0 15px 0 15px;
-}
+}*/
 
-div.project1 {
+/*div.project1 {*/
   /*border: 2px black solid;*/
-}
+/*}
 .project1:hover {
   color: white;
   opacity: 0.7;
-}
+}*/
 
-div.project2 {
+/*div.project2 {*/
   /*border: 2px black solid;*/
-}
+/*}
 .project2:hover {
   color: white;
   opacity: 0.7;
-}
+}*/
 
-div.project3 {
+/*div.project3 {*/
   /*border: 2px black solid;*/
-}
+/*}
 .project3:hover {
   color: white;
   opacity: 0.7;
-}
+}*/
 
 /*image styling */
-img.img-circle{
+/*img.img-circle{
   border-radius: 0%;
-}
+}*/
 
-div.fa-angle-down {
+/*div.fa-angle-down {
   padding-top: 21px;
   padding-bottom: 70px;
   margin-bottom: 40px;
@@ -115,14 +115,54 @@ div.fa-angle-down {
   width: 100%;
   display: flex;
   justify-content: center;
-}
+}*/
 
+.bio-div {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
 .bio {
   font-size: 58px;
   font-weight: bold;
   padding: 0 20px 0 30px;
   line-height: 1.5;
+  /*background-color: #ffffff;*/
 }
+.bio .dockit {
+  color: #3c00d2;
+}
+.bio .eventbrite:hover {
+  color: #ff9a00;
+}
+.bio .ticketmaster:hover {
+  color: #009cde;
+}
+.bio .ruby:hover {
+  color: 	rgba(155, 17, 30, 1.0);
+}
+.bio .jquery:hover {
+  color: rgba(122, 206, 244, 1);
+}
+.bio .github:hover {
+  color: #f5f5f5
+}
+.bio2 {
+  text-align: right;
+  font-size: 58px;
+  font-weight: bold;
+  padding: 0 20px 0 30px;
+  line-height: 1.5;
+  /*background-color: #ffffff;*/
+}
+.bio3 {
+  text-align: left;
+  font-size: 58px;
+  font-weight: bold;
+  padding: 0 70px 0 30px;
+  line-height: 1.5;
+  /*background-color: #ffffff;*/
+}
+
 /*.img-circle {
   padding-top: 4px;
   border-radius: 50%;
@@ -161,8 +201,8 @@ div.fa-angle-down {
   text-align: center;
   /*display: flex;
   justify-content: center;*/
-  padding: none;
   margin-top: none;
+  padding-right: 48px;
 }
 .social-list > li {
   text-align: center;

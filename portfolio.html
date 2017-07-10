@@ -7,22 +7,24 @@
     <title>🗂 McBride's Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="portfolio.js"></script>
   </head>
-  <body bgcolor="#F5F5F5">
+  <body bgcolor="white">
 
-    <div class="title-name">
-      <p class="name">Anthony McBride</p> <br>
-      <p class="job">Full Stack Developer</p>
+    <div class="title-name" >
+      <p class="name">Anthony McBride
+        <!-- <div class="fa fa-angle-down" aria-hidden="true"></div> -->
+      </p>
+      <!-- <div class="fa fa-angle-down" aria-hidden="true"></div> -->
+      <ul class="social-list">
+        <li><a href="https://github.com/anthonyjmcbride" class="fa fa-github" aria-hidden="true"></a></li>
+        <li><a href="https://www.linkedin.com/in/anthony-mcbride-32562ba1/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+        <li><a href="https://www.facebook.com/AnthonyJamesMcbride" class="fa fa-facebook-official" aria-hidden="true"></a></li>
+        <li><a href="https://www.instagram.com/anthonyjmcbride/" class="fa fa-instagram" aria-hidden="true"></a></li>
+      </ul>
+     <p class="contact-info">anthonyjmcbride@icloud.com (305) 988-5498</p>
     </div>
-
-    <!--social media icons-->
-  <!-- <ul class="social-list-top">
-    <li><a href="https://github.com/anthonyjmcbride" class="fa fa-github" aria-hidden="true"></a></li>
-    <li><a href="https://www.linkedin.com/in/anthony-mcbride-32562ba1/" class="fa fa-linkedin" aria-hidden="true"></a></li>
-    <li><a href="https://www.facebook.com/AnthonyJamesMcbride" class="fa fa-facebook-official" aria-hidden="true"></a></li>
-    <li><a href="https://www.instagram.com/anthonyjmcbride/" class="fa fa-instagram" aria-hidden="true"></a></li>
-  </ul> -->
-
 
     <!-- <ul class="nav">
       <li><a href="Projects/index.html.erb" >Projects</a></li>
@@ -84,36 +86,41 @@
           <!-- </div>
         </div>
     </div> -->
+    <!-- DockIT is your solution for tracking events with platforms
+    like Eventbrite and Ticketmaster using your computer, tablet or mobile device.
+     It is primarily used to track saved(pending) events you want attend in your
+     Dock(safe in user dashboard). You can delete the event from your Dock(dashboard)
+     at any time or sync the event to your google calendar when you are ready to go.
+     Avoid a messy calendar with too many missing events, just DockIT and enjoy your show.
 
+    We used Eventbrite and Ticketmaster APIs to connect the application using HTTParty with Ruby on Rails, we combined different parameters using Ruby methods to filter the information from the APIs, the parameters content was sent to the database using hidden field tags to save the information on the DockIT page or user Dock(dashboard). The front end was designed using bootstrap version 4, aimed for mobile first, second tablets and finally the desktop. -->
 
     <!-- down arrow -->
-    <div class="fa fa-angle-down" aria-hidden="true"></div>
-
-    <p class="bio">Lorem Ipsum is simply dummy <br>
-      text of the printing and <br>
-      typesetting industry. Lorem <br>
-      Ipsum has been the industry's <br>
-      standard dummy text ever since <br>
-      <br>
-      the 1500s, when an unknown <br>
-      printer took a galley of type and <br>
-      scrambled it to make a type <br>
-      specimen book. It has survived <br>
-      not only five centuries, but also <br>
-      the leap into electronic <br>
-      typesetting, remaining essentially<br>
-      <br>
-      unchanged. It was popularised in<br>
-      the 1960s with the release of<br>
-      Letraset sheets containing Lorem<br>
-      Ipsum passages, and more<br>
-      recently with desktop publishing<br>
-      software like Aldus PageMaker<br>
-      including versions of Lorem<br>
-      Ipsum.</p>
+    <div class="bio-div">
+      <p class="bio"><span class="dockit">DockIT</span> centralized place to view events <br>
+        APIs(<span class="eventbrite">Eventbrite</span>, <span class="ticketmaster">Ticketmaster</span>) <br>
+        <span class="ruby">Ruby</span> on Rails PostgreSQL <br>
+        HTML CSS JavaScript <span class="jquery">jQuery</span> <br>
+        GIT OmniAuth Bootstrap <span class="github">GitHub</span> </p>
+        <p class="bio2">the 1500s, when an unknown <br>
+        printer took a galley of type and <br>
+        scrambled it to make a type <br>
+        specimen book. It has survived <br>
+        not only five centuries, but also <br>
+        the leap into electronic <br>
+        typesetting, remaining essentially<br></p>
+        <p class="bio3">unchanged. It was popularised in<br>
+        the 1960s with the release of<br>
+        Letraset sheets containing Lorem<br>
+        Ipsum passages, and more<br>
+        recently with desktop publishing<br>
+        software like Aldus PageMaker<br>
+        including versions of Lorem<br>
+        Ipsum.</p>
+    </div>
 
 
-      <div class="project-div">
+      <!-- <div class="project-div">
             <div class="project1">
               <div class="profile-image">
                 <img class="img-circle" src="DockItLogo.png" alt="" width="310" height="300" />
@@ -152,19 +159,8 @@
                   </div>
                 </div>
               </div>
-            <br>
+            <br> -->
 
-
-    <!--contact info  -->
-      <!--social media icons-->
-    <ul class="social-list">
-      <li><a href="https://github.com/anthonyjmcbride" class="fa fa-github" aria-hidden="true"></a></li>
-      <li><a href="https://www.linkedin.com/in/anthony-mcbride-32562ba1/" class="fa fa-linkedin" aria-hidden="true"></a></li>
-      <li><a href="https://www.facebook.com/AnthonyJamesMcbride" class="fa fa-facebook-official" aria-hidden="true"></a></li>
-      <li><a href="https://www.instagram.com/anthonyjmcbride/" class="fa fa-instagram" aria-hidden="true"></a></li>
-    </ul>
-   <p class="contact-info">Anthony J. McBride | anthonyjmcbride@icloud.com | (305) 988-5498 </p>
-
-
+   <script type="text/javascript" src="portfolio.js"></script>
   </body>
 </html>
