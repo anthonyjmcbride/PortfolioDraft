@@ -1,27 +1,44 @@
 $(document).ready(function() {
 
-  //  $('body').hide(0).delay(200).fadeIn(3000);
+  // PARALLAX EFFECT
+  $(window).scroll(function() {
+    var windowScroll = $(this).scrollTop();
+    console.log(windowScroll);
 
-   $(window).scroll(function() {
+    $('.parallax-container').css({
+      'transform' : 'translate(0px,' + windowScroll /80 + '%)'
+    });
 
-     var windowScroll = $(this).scrollTop();
-     console.log(windowScroll);
+    $('.parallax-container2').css({
+      'transform' : 'translate(0px,' + windowScroll /80 + '%)'
+    });
 
-     $('.bio').css({
-       'transform' : 'translate(0px,' + windowScroll /160 + '%)'
-     });
+    $('.parallax-container3').css({
+      'transform' : 'translate(0px,' + windowScroll /80 + '%)'
+    });
 
-     $('.bio2').css({
-       'transform' : 'translate(0px,' + windowScroll /80 + '%)'
-     });
+    $('.parallax-container4').css({
+      'transform' : 'translate(0px,' + windowScroll /320 + '%)'
+    });
 
-     $('.bio3').css({
-       'transform' : 'translate(0px,' + windowScroll /80 + '%)'
-     });
+  });
 
-     $('.bio4').css({
-       'transform' : 'translate(0px,' + windowScroll /320 + '%)'
-     });
+  // DROP DOWN EFFECTS
+  $('.bio-list').hide(0);
 
+    $('.parallax-container').on('mouseover', 'p', function() {
+     $('.bio-list').slideDown(1500);
    });
+
+   $('.bio-list2').hide(0);
+
+     $('.parallax-container2').on('mouseover', 'p', function() {
+      $('.bio-list2').slideDown(1500);
+    });
+
+    $('.bio-list3').hide(0);
+
+      $('.parallax-container3').on('mouseover', 'p', function() {
+       $('.bio-list3').slideDown(1500);
+     });
 });
