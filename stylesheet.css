@@ -36,10 +36,12 @@ p.name {
   letter-spacing: 0.05em;
   margin: 15px;
   color: black;
-  font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .contact-info {
   text-align: center;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 24px;
 }
  /*social media icons*/
 
@@ -147,7 +149,7 @@ div.fa-angle-down {
   line-height: 1.5;
   /*background-color: #ffffff;*/
   text-align: center;
-  padding-bottom: 50px;
+  padding: 100px 0 50px 0;
 }
 
 /*.img-circle {
