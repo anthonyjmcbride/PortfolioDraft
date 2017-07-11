@@ -26,13 +26,13 @@ body {
 
 
 div.title-name {
-  margin: 235px 0 180px 0;
+  margin: 200px 0 180px 0;
   padding: 20px;
   text-align: center;
 }
 p.name {
-  font-weight: 450;
-  font-size: 5.0em;
+  font-weight: bold;
+  font-size: 80px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin: 15px;
@@ -42,7 +42,8 @@ p.name {
 .contact-info {
   text-align: center;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: 500;
 }
  /*social media icons*/
 
@@ -76,7 +77,7 @@ p.name {
   display: inline-block;
   padding-right: 25px;
   padding-left: 25px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .social-list > li > a {
@@ -106,14 +107,38 @@ div.fa-angle-down {
   line-height: 1.5;
   /*background-color: #ffffff;*/
 }
-.see-tech {
+
+.dockit {
+  font-size: 80px;
+}
+.bio .description {
   font-size: 58px;
-  font-weight: bold;
+}
+.see-tech {
+  font-size: 45px;
+  font-weight: 500;
   padding: 0 20px 0 30px;
   line-height: 1.5;
 }
+
+
 .bio .dockit {
   color: #3c00d2;
+}
+.post:hover {
+  color: #336791;
+}
+.boot:hover {
+  color: #401F7C;
+}
+.html:hover {
+  color: #FF4500;
+}
+.css:hover {
+ color: #00a4e4;
+}
+.js:hover {
+  color: #FFD700;
 }
 .see-tech .eventbrite:hover {
   color: #ff9a00;
@@ -121,7 +146,7 @@ div.fa-angle-down {
 .see-tech .ticketmaster:hover {
   color: #009cde;
 }
-.see-tech .ruby:hover {
+.ruby:hover {
   color: 	rgba(155, 17, 30, 1.0);
 }
 .see-tech .jquery:hover {
@@ -142,9 +167,15 @@ div.fa-angle-down {
   padding: 0 20px 0 30px;
   line-height: 1.5;
 }
-.see-tech2 {
+.design-mockup {
+  font-size: 80px;
+}
+.bio2 .description {
   font-size: 58px;
-  font-weight: bold;
+}
+.see-tech2 {
+  font-size: 45px;
+  font-weight: 500;
   padding: 0 20px 0 30px;
   line-height: 1.5;
   text-align: right;
@@ -162,9 +193,12 @@ div.fa-angle-down {
   line-height: 1.5;
   /*background-color: #ffffff;*/
 }
+.blog, .url {
+  font-size: 80px;
+}
 .see-tech3 {
-  font-size: 58px;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 500;
   padding: 0 20px 0 30px;
   line-height: 1.5;
   text-align: left;
