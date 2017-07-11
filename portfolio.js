@@ -26,19 +26,19 @@ $(document).ready(function() {
   // DROP DOWN EFFECTS
   $('.bio-list').hide(0);
 
-    $('.parallax-container').on('mouseover', 'p', function() {
-     $('.bio-list').slideDown(1500);
+    $('.parallax-container').on('click', 'p', function() {
+     $('.bio-list').slideDown(1700);
    });
 
    $('.bio-list2').hide(0);
 
-     $('.parallax-container2').on('mouseover', 'p', function() {
-      $('.bio-list2').slideDown(1500);
+     $('.parallax-container2').on('click', 'p', function() {
+      $('.bio-list2').slideDown(1700);
     });
 
     $('.bio-list3').hide(0);
 
-      $('.parallax-container3').on('mouseover', 'p', function() {
-       $('.bio-list3').slideDown(1500);
+      $('.parallax-container3').on('click', 'p', function() {
+       $('.bio-list3').slideDown(1700);
      });
 });

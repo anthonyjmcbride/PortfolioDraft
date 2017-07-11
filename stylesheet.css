@@ -97,14 +97,27 @@ div.fa-angle-down {
 .bio-div {
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 50px;
+  margin-left: 20px;
+  border-left: 4px black solid;
+  padding-left: 0px;
+
 }
 
+h1 {
+  font-size: 250px;
+  color: rgba(224, 224, 224, 0.3);
+  /*position: absolute;
+  z-index: -1;*/
+  margin: 0;
+  z-index: -1;
+  position: relative;
+}
 /*PARAGRAPH 1*/
 .bio {
   font-size: 58px;
   font-weight: bold;
   padding: 0 20px 0 30px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   /*background-color: #ffffff;*/
 }
 
@@ -117,8 +130,8 @@ div.fa-angle-down {
 .see-tech {
   font-size: 45px;
   font-weight: 500;
-  padding: 0 20px 0 30px;
-  line-height: 1.5;
+  /*padding: 0 20px 0 30px;*/
+  /*line-height: 1.5;*/
 }
 
 
@@ -161,11 +174,11 @@ div.fa-angle-down {
 
 /*PARAGRAPH 2*/
 .bio2 {
-  text-align: right;
+  text-align: left;
   font-size: 58px;
   font-weight: bold;
   padding: 0 20px 0 30px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
 }
 .design-mockup {
   font-size: 80px;
@@ -177,8 +190,8 @@ div.fa-angle-down {
   font-size: 45px;
   font-weight: 500;
   padding: 0 20px 0 30px;
-  line-height: 1.5;
-  text-align: right;
+  /*line-height: 1.5;*/
+  text-align: left;
 }
 .design-mockup {
   color: #218901;
@@ -190,7 +203,7 @@ div.fa-angle-down {
   font-size: 58px;
   font-weight: bold;
   padding: 0 70px 0 30px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   /*background-color: #ffffff;*/
 }
 .blog, .url {
@@ -200,7 +213,7 @@ div.fa-angle-down {
   font-size: 45px;
   font-weight: 500;
   padding: 0 20px 0 30px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   text-align: left;
 }
 
@@ -209,7 +222,7 @@ div.fa-angle-down {
   font-size: 58px;
   font-weight: bold;
   padding: 0 20px 0 30px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   /*background-color: #ffffff;*/
   text-align: center;
   padding: 100px 0 50px 0;
