@@ -104,7 +104,7 @@ div.fa-angle-down {
 }
 
 h1 {
-  font-size: 250px;
+  font-size: 230px;
   color: rgba(224, 224, 224, 0.3);
   /*position: absolute;
   z-index: -1;*/
@@ -116,7 +116,7 @@ h1 {
 .bio {
   font-size: 58px;
   font-weight: bold;
-  padding: 0 20px 0 30px;
+  padding-left: 10px;
   /*line-height: 1.5;*/
   /*background-color: #ffffff;*/
 }
@@ -125,11 +125,13 @@ h1 {
   font-size: 80px;
 }
 .bio .description {
-  font-size: 58px;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.8);
 }
 .see-tech {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 500;
+  text-align: left;
   /*padding: 0 20px 0 30px;*/
   /*line-height: 1.5;*/
 }
@@ -177,19 +179,20 @@ h1 {
   text-align: left;
   font-size: 58px;
   font-weight: bold;
-  padding: 0 20px 0 30px;
+  padding-left: 10px;
   /*line-height: 1.5;*/
 }
 .design-mockup {
   font-size: 80px;
 }
 .bio2 .description {
-  font-size: 58px;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.8);
 }
 .see-tech2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 500;
-  padding: 0 20px 0 30px;
+  /*padding: 0 20px 0 30px;*/
   /*line-height: 1.5;*/
   text-align: left;
 }
@@ -202,7 +205,7 @@ h1 {
   text-align: left;
   font-size: 58px;
   font-weight: bold;
-  padding: 0 70px 0 30px;
+  padding-left: 10px;
   /*line-height: 1.5;*/
   /*background-color: #ffffff;*/
 }
@@ -210,9 +213,9 @@ h1 {
   font-size: 80px;
 }
 .see-tech3 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 500;
-  padding: 0 20px 0 30px;
+  /*padding: 0 20px 0 30px;*/
   /*line-height: 1.5;*/
   text-align: left;
 }
