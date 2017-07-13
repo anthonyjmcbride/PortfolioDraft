@@ -209,8 +209,13 @@ h1 {
   /*line-height: 1.5;*/
   /*background-color: #ffffff;*/
 }
-.blog, .url {
+.blog {
   font-size: 80px;
+  color: orange;
+  }
+.url {
+  font-size: 80px;
+  color: orange;
 }
 .see-tech3 {
   font-size: 40px;
