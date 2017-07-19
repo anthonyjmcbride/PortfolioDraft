@@ -41,7 +41,7 @@ $(document).ready(function() {
       $('.parallax-container3').on('click', 'p', function() {
        $('.bio-list3').slideDown(1700);
      });
-     
+
 });
 
-alert("This site is currently under maintenance and therefore has limited functionality.");
+// alert("This site is currently under maintenance and therefore has limited functionality.");

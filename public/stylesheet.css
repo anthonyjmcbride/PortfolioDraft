@@ -21,6 +21,7 @@ body {
   margin: 1px;
   /*background-image: url("wynavi.jpeg");*/
   border: 3px rgba(0, 255, 255, 0.5) solid;
+
 }
 
 
@@ -29,6 +30,7 @@ div.title-name {
   margin: 200px 0 180px 0;
   padding: 20px;
   text-align: center;
+  height: 600px;
 }
 p.name {
   /*text-decoration: underline;
@@ -107,6 +109,11 @@ h1 {
   z-index: -1 !important;
   text-align: left;
 }
+
+.project-div, .marketing-div, .lifestyle-div {
+  height: 600px;
+}
+
 /*TABS*/
 
 .active a {
