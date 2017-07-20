@@ -117,10 +117,6 @@ h1#marketing {
   z-index: -1 !important;
   text-align: left;
 }
-.marketing-div {
-  display: flex !important;
-  justify-content: center !important;
-}
 
 
 .project-div, .lifestyle-div {
