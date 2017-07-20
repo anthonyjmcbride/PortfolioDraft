@@ -129,7 +129,6 @@ h1#marketing {
 .marketing-div {
   background-color: black;
 }
-
 /*TABS*/
 
 .active#dockit a {
@@ -159,7 +158,7 @@ h1#marketing {
 }
 #exTab3 .nav-pills#nav-pills-marketing {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: center !important; 
 }
 #exTab3 .nav-pills#nav-pills-marketing > li > a {
   border-radius: 4px 4px 0 0 ;
