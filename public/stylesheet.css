@@ -20,8 +20,7 @@ body {
   /*border: 30px #f5f5f5 solid;*/
   margin: 1px;
   /*background-image: url("wynavi.jpeg");*/
-  border: 3px rgba(0, 255, 255, 0.5) solid;
-
+  /*border: 3px rgba(0, 255, 255, 0.5) solid;*/
 }
 
 
@@ -128,6 +127,7 @@ h1#marketing {
 
 .marketing-div {
   background-color: black;
+  align-items: center !important;
 }
 /*TABS*/
 
@@ -158,13 +158,13 @@ h1#marketing {
 }
 #exTab3 .nav-pills#nav-pills-marketing {
   display: flex !important;
-  justify-content: center !important; 
+  justify-content: center !important;
 }
 #exTab3 .nav-pills#nav-pills-marketing > li > a {
   border-radius: 4px 4px 0 0 ;
   color: #f5f5f5;
-  font-weight: bolder;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 15px;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
   text-align: center;
 }
