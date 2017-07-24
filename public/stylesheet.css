@@ -122,7 +122,7 @@ h1#marketing {
   height: 600px;
 }
 .marketing-div {
-  height: 800px;
+  height: 1000px;
 }
 
 .marketing-div {
@@ -169,7 +169,7 @@ h1#marketing {
   text-align: center;
 }
 #exTab3 .nav-pills#nav-pills-marketing > li > a:hover {
-  background-color: rgb(0, 17, 17);
+  background-color: rgba(0, 17, 17, 0);
 }
 
 #exTab3 .tab-content {
@@ -196,6 +196,12 @@ p.tab-content {
   font-weight: 400;
   font-size: 20px;
 }
+
+.video-div {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
