@@ -26,10 +26,10 @@ body {
 
 
 div.title-name {
-  margin: 200px 0 180px 0;
+  margin: 150px 0 150px 0;
   padding: 20px;
   text-align: center;
-  height: 600px;
+  height: 400px;
 }
 p.name {
   /*text-decoration: underline;
@@ -103,32 +103,32 @@ div.fa-angle-down {
 h1#development {
   font-size: 25px !important;
   color: rgb(51, 51, 51) !important;
-  margin: 160px 0 30px 0 !important;
+  margin: 100px 0 30px 0 !important;
   padding: 40px 0 0 20px;
-  z-index: -1 !important;
   text-align: left;
 }
-h1#marketing {
+/*h1#marketing {
   color: #f5f5f5 !important;
   font-size: 25px !important;
   margin: 160px 0 30px 0 !important;
   padding: 40px 0 0 20px;
   z-index: -1 !important;
   text-align: left;
-}
+}*/
 
 
-.project-div, .lifestyle-div {
+.project-div {
   height: 800px;
+  margin-bottom: 160px;
 }
-.marketing-div {
+/*.marketing-div {
   height: 1000px;
-}
+}*/
 
-.marketing-div {
+/*.marketing-div {
   background-color: black;
   align-items: center !important;
-}
+}*/
 /*TABS*/
 
 .active#dockit a {
@@ -156,7 +156,7 @@ h1#marketing {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
   text-align: center;
 }
-#exTab3 .nav-pills#nav-pills-marketing {
+/*#exTab3 .nav-pills#nav-pills-marketing {
   display: flex !important;
   justify-content: center !important;
 }
@@ -170,16 +170,16 @@ h1#marketing {
 }
 #exTab3 .nav-pills#nav-pills-marketing > li > a:hover {
   background-color: rgba(0, 17, 17, 0);
-}
+}*/
 
 #exTab3 .tab-content {
   color : black;
   padding : 5px 15px;
 }
-#exTab3 .tab-content#marketing-content {
+/*#exTab3 .tab-content#marketing-content {
   color : white;
   padding : 5px 15px;
-}
+}*/
 
 span#tag-line {
   font-size: 26px;
@@ -273,6 +273,7 @@ footer {
 .right {
   text-align:right;
 }
+
 
 
 @media only screen and (mid-width: 768px){
