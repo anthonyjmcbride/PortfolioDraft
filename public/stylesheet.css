@@ -152,7 +152,7 @@ h1#development {
   border-radius: 4px 4px 0 0 ;
   color: rgb(51, 51, 51);
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
   text-align: center;
 }
@@ -182,19 +182,19 @@ h1#development {
 }*/
 
 span#tag-line {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   color: rgb(51, 51, 51);
 }
 span#tools {
 color: rgb(51, 51, 51);
-font-size: 15px;
+font-size: 13px;
 }
 p.tab-content {
   /*border-left: 2px rgba(0, 255, 255, 1) solid;*/
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .video-div {
