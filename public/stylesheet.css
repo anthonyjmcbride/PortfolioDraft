@@ -26,7 +26,7 @@ body {
 
 
 div.title-name {
-  margin: 150px 0 150px 0;
+  margin: 170px 0 150px 0;
   padding: 20px;
   text-align: center;
   height: 400px;
@@ -188,13 +188,13 @@ span#tag-line {
 }
 span#tools {
 color: rgb(51, 51, 51);
-font-size: 13px;
+font-size: 15px;
 }
 p.tab-content {
   /*border-left: 2px rgba(0, 255, 255, 1) solid;*/
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .video-div {
