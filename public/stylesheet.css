@@ -119,7 +119,7 @@ h1#marketing {
 
 
 .project-div, .lifestyle-div {
-  height: 600px;
+  height: 800px;
 }
 .marketing-div {
   height: 1000px;
@@ -200,6 +200,11 @@ p.tab-content {
 .video-div {
   display: flex;
   justify-content: center;
+}
+
+video.dockit-video {
+  width: 100%;
+  text-align: center;
 }
 
 
