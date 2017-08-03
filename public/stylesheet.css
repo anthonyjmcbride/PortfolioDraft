@@ -107,28 +107,37 @@ h1#development {
   padding: 40px 0 0 20px;
   text-align: left;
 }
-/*h1#marketing {
-  color: #f5f5f5 !important;
-  font-size: 25px !important;
-  margin: 160px 0 30px 0 !important;
-  padding: 40px 0 0 20px;
-  z-index: -1 !important;
-  text-align: left;
-}*/
+
 
 
 .project-div {
   height: 800px;
   margin-bottom: 160px;
 }
-/*.marketing-div {
-  height: 1000px;
-}*/
+.language-div {
+  height: 800px;
+  background: -webkit-linear-gradient(top, rgba(245, 245, 245, 1), white);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.frontend-div, .backend-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 5px 20px 5px 20px;
+  margin: 0 30px 10px 30px;
+}
+span.frontend-logo {
+  font-weight: bold;
+}
 
-/*.marketing-div {
-  background-color: black;
-  align-items: center !important;
-}*/
+.gradient-line {
+  height: 2px;
+  background: -webkit-linear-gradient(left top, blue , purple);
+  margin: 0 70px 10px 70px;
+}
+
 /*TABS*/
 
 .active#dockit a {
@@ -156,21 +165,7 @@ h1#development {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
   text-align: center;
 }
-/*#exTab3 .nav-pills#nav-pills-marketing {
-  display: flex !important;
-  justify-content: center !important;
-}
-#exTab3 .nav-pills#nav-pills-marketing > li > a {
-  border-radius: 4px 4px 0 0 ;
-  color: #f5f5f5;
-  font-weight: 400;
-  font-size: 15px;
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
-  text-align: center;
-}
-#exTab3 .nav-pills#nav-pills-marketing > li > a:hover {
-  background-color: rgba(0, 17, 17, 0);
-}*/
+
 
 #exTab3 .tab-content {
   color : black;
@@ -251,7 +246,7 @@ video.dockit-video {
   color: #f5f5f5
 }
 
-footer {
+/*footer {
   background-color: #f5f5f5;
   height: 200px;
   padding: 30px;
@@ -272,7 +267,7 @@ footer {
 }
 .right {
   text-align:right;
-}
+}*/
 
 
 
