@@ -121,6 +121,12 @@ h1#development {
   padding-top: 175px;
   padding-bottom: 110px;
 }
+.label-div {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .frontend-div, .backend-div {
   display: flex;
   align-items: center;
@@ -130,12 +136,13 @@ h1#development {
   margin: 0 30px 10px 30px;
 }
 img.jquery-badge {
-  padding: 10px 15px 10px 15px;
+  margin: 10px 0px 10px 50px;
 }
 
 .gradient-line {
   height: 2px;
-  background: -webkit-linear-gradient(left top, blue , purple);
+  width: 75%;
+  background: -webkit-linear-gradient(left top, #1700B2,rgba(0, 255, 255, 0.7));
   margin: 0 70px 10px 70px;
 }
 
