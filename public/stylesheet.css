@@ -129,8 +129,8 @@ h1#development {
   padding: 5px 20px 5px 20px;
   margin: 0 30px 10px 30px;
 }
-span.frontend-logo {
-  font-weight: bold;
+img.jquery-badge {
+  padding: 10px 15px 10px 15px;
 }
 
 .gradient-line {
