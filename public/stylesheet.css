@@ -117,7 +117,7 @@ h1#development {
 }
 .language-div {
   height: 900px;
-  background: -webkit-linear-gradient(white, rgba(245, 245, 245, 1), rgba(245, 245, 245, 1), rgba(245, 245, 245, 1), white);
+  background: -webkit-linear-gradient(white, rgba(210, 210, 210,0.5),rgba(210, 210, 210,0.5), rgba(210, 210, 210,0.5), white);
   padding-top: 175px;
   padding-bottom: 110px;
 }
@@ -135,7 +135,7 @@ h1#development {
   padding: 5px 20px 5px 20px;
   margin: 0 30px 10px 30px;
 }
-img.jquery-badge {
+img.fronend-badge, img.backend-badge {
   margin: 10px 0px 10px 50px;
 }
 
