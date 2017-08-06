@@ -122,24 +122,35 @@ h1#development {
   padding-bottom: 110px;
 }
 .label-div {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0;
 }
 .frontend-div, .backend-div {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
   height: 300px;
-  padding: 5px 20px 5px 20px;
-  margin: 0 30px 10px 30px;
+  padding: 0 75px 0 75px;
 }
 img.fronend-badge, img.backend-badge {
-  margin: 10px 0px 10px 50px;
+
 }
 
-.gradient-line {
+#frontend, #backend {
+  width: 10%;
+  margin: 0px;
+}
+div.frontgradient-line {
+  height: 2px;
+  width: 75%;
+  background: -webkit-linear-gradient(left top, #1700B2,rgba(0, 255, 255, 0.7));
+  margin: 0 70px 10px 70px;
+}
+div.backgradient-line {
   height: 2px;
   width: 75%;
   background: -webkit-linear-gradient(left top, #1700B2,rgba(0, 255, 255, 0.7));

@@ -6,15 +6,15 @@ $(document).ready(function() {
   });
 
   $(".jquery-badge").hide();
-  // $(".frontgradient-line").hide();
-  // $(".backgradient-line").hide();
+  $(".frontgradient-line").hide();
+  $(".backgradient-line").hide();
 
-  $(".language-div").mouseenter(function() {
-    $(".frontgradient-line").fadeIn(600);
+  $(".label-div").mouseenter(function() {
+    $(".frontgradient-line").fadeIn();
   });
 
-  $(".language-div").mouseenter(function() {
-    $(".backgradient-line").fadeIn(600);
+  $(".label-div").mouseenter(function() {
+    $(".backgradient-line").fadeIn();
   });
 
 
