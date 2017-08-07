@@ -25,7 +25,7 @@ $(document).ready(function() {
         $(element).show().animate({
           opacity: '1',
           marginTop: 20
-        },2000);
+        },1500);
     };
     if (windowScroll > 500) {
       animateElement(".frontend-badge");
