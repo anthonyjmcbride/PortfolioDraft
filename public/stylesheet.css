@@ -27,7 +27,7 @@ body {
 
 
 div.title-name {
-  margin: 170px 0 150px 0;
+  margin: 170px 0 100px 0;
   padding: 20px;
   text-align: center;
   height: 400px;
@@ -110,10 +110,10 @@ h1#development {
 
 
 .language-div {
-  height: 900px;
+  height: 750px;
   /*background: -webkit-linear-gradient(white, rgba(210, 210, 210,0.5),rgba(210, 210, 210,0.5), rgba(210, 210, 210,0.5), white);*/
-  padding-top: 90px;
-  padding-bottom: 110px;
+  padding-top: 50px;
+  /*padding-bottom: 110px;*/
 }
       .container-right, .container-left {
       }
@@ -170,9 +170,11 @@ h1#development {
 
 /*TABS*/
 .project-div {
-  height: 800px;
-  margin-bottom: 160px;
-  margin-top: 100px;
+  height: 850px;
+  background: -webkit-linear-gradient(top, #f5f5f5, white);
+  padding-top: 150px;
+  /*margin-bottom: 160px;*/
+  /*margin-top: 100px;*/
 }
 
 .active#dockit a {
@@ -180,14 +182,6 @@ h1#development {
   border-bottom: 2px rgba(0, 255, 255, 0.7) solid;
 }
 
-.active#pitchday a {
-  background-color: black !important;
-  border-bottom: 1px rgba(0, 255, 255, 0.7) solid;
-}
-.active#github a {
-  background-color: blue !important;
-  border-bottom: 5px rgba(0, 255, 255, 0.7) solid;
-}
 #exTab3 .nav-pills#nav-pills-development {
   display: flex !important;
   justify-content: center !important;
@@ -200,7 +194,10 @@ h1#development {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
   text-align: center;
 }
-
+div#exTab3.container {
+  background-color: white;
+  border-radius: 10px;
+}
 
 #exTab3 .tab-content {
   color : black;

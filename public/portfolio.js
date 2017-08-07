@@ -27,7 +27,7 @@ $(document).ready(function() {
           marginTop: 20
         },1500);
     };
-    if (windowScroll > 500) {
+    if (windowScroll > 380) {
       animateElement(".frontend-badge");
       animateElement(".backend-badge");
       animateElement(".front-text");
@@ -44,7 +44,7 @@ $(document).ready(function() {
           width: 490,
         },500);
     };
-    if (windowScroll > 500) {
+    if (windowScroll > 373) {
       animateElementWidth(".frontgradient-line");
       animateElementWidth(".backgradient-line");
         }
