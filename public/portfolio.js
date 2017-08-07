@@ -27,13 +27,13 @@ $(document).ready(function() {
           marginTop: 20
         },2000);
     };
-    if (windowScroll > 560) {
+    if (windowScroll > 500) {
       animateElement(".frontend-badge");
       animateElement(".backend-badge");
       animateElement(".front-text");
       animateElement(".back-text");
         }
-    // console.log(windowScroll);
+    console.log(windowScroll);
   });
 
   $(window).scroll(function() {
@@ -44,7 +44,7 @@ $(document).ready(function() {
           width: 490,
         },500);
     };
-    if (windowScroll > 560) {
+    if (windowScroll > 500) {
       animateElementWidth(".frontgradient-line");
       animateElementWidth(".backgradient-line");
         }
