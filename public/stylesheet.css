@@ -133,7 +133,7 @@ div.fa-angle-down {
             /*border: 2px green solid;*/
             color: rgb(51,51,51);
             font-weight: bold;
-            font-size: 45px;
+            font-size: 48px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -156,7 +156,7 @@ div.fa-angle-down {
             }
             .front-text2, .back-text2 {
               font-weight: 400;
-              font-size: 30px
+              font-size: 20px
             }
 
 .frontend-badge, .backend-badge {
