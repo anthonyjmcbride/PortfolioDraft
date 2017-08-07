@@ -21,6 +21,7 @@ body {
   margin: 1px;
   /*background-image: url("wynavi.jpeg");*/
   /*border: 3px rgba(0, 255, 255, 0.5) solid;*/
+  background-color: #f5f5f5;
 }
 
 
@@ -65,8 +66,8 @@ p.name {
 
  /* Add a hover effect */
  .fa:hover {
-    color: rgb(0, 255, 255);
-     opacity: 0.7;
+    color: #110089;
+     /*opacity: 0.7;*/
  }
 
 /*social icons list*/
@@ -109,12 +110,11 @@ h1#development {
 
 .language-div {
   height: 900px;
-  background: -webkit-linear-gradient(white, rgba(210, 210, 210,0.5),rgba(210, 210, 210,0.5), rgba(210, 210, 210,0.5), white);
+  /*background: -webkit-linear-gradient(white, rgba(210, 210, 210,0.5),rgba(210, 210, 210,0.5), rgba(210, 210, 210,0.5), white);*/
   padding-top: 175px;
   padding-bottom: 110px;
 }
       .container-right, .container-left {
-        border: 2px blue solid;
       }
       .container-right {
         height: 500px;
@@ -122,12 +122,12 @@ h1#development {
         float: right;
       }
           .frontend-div, .backend-div {
-            border: 2px purple solid;
+            /*border: 2px purple solid;*/
             display: flex;
             align-items: center;
-            justify-content: center;
+            /*justify-content: center;*/
             height: 50%;
-            padding: 0 75px 0 75px;
+            padding: 40px 75px 0 75px;
           }
       .container-left {
         height: 500px;
@@ -135,32 +135,35 @@ h1#development {
         float: left;
       }
           .frontend-text-div, .backend-text-div {
-            border: 2px green solid;
+            /*border: 2px green solid;*/
             color: rgb(51,51,51);
             font-weight: bold;
-            font-size: 2em;
+            font-size: 45px;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 150px;
-            margin-bottom: 97px;
-            padding: 0 75px 0 75px;
+            flex-direction: column;
+            height: 250px;
+            /*margin: 40px 0 70px 0;*/
+            padding: 0 0 0 150px;
           }
-
-        .label-div {
-          width: 100%;
-          height: 3px;
-          margin: 0;
-        }
             div.frontgradient-line, .backgradient-line {
               height: 2px;
-              width: 75%;
-              background: -webkit-linear-gradient(left top, #1700B2,rgba(0, 255, 255, 0.7));
-              margin-left: 70px;
+              width: 100%;
+              background: -webkit-linear-gradient(left top, #1700B2,rgba(0, 255, 255, 0.7),white);
+              margin-bottom: 5px;
+            }
+            .front-text, .back-text {
+              width: 490px;
+              margin-top: 40px;
+            }
+            .front-text2, .back-text2 {
+              font-weight: 400;
+              font-size: 30px
             }
 
-img.frontend-badge, img.backend-badge {
-  margin-left: 30px;
+.frontend-badge, .backend-badge {
+  margin: 40px 0 0 30px;
 }
 
 

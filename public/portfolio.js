@@ -4,8 +4,17 @@ $(document).ready(function() {
     $(element).hide().animate({ opacity: '0'});
   };
 
+  function hideElementWidth(element) {
+    $(element).hide().animate({ opacity: '0', width: 0});
+  };
+
+
   hideElement(".frontend-badge");
   hideElement(".backend-badge");
+  hideElement(".front-text");
+  hideElement(".back-text");
+  hideElementWidth(".frontgradient-line");
+  hideElementWidth(".backgradient-line");
 
 
 
@@ -15,30 +24,34 @@ $(document).ready(function() {
     function animateElement(element) {
         $(element).show().animate({
           opacity: '1',
-          marginTop: '-10px'
-        });
+          marginTop: 20
+        },2000);
     };
     if (windowScroll > 560) {
       animateElement(".frontend-badge");
       animateElement(".backend-badge");
-    }
+      animateElement(".front-text");
+      animateElement(".back-text");
+        }
     // console.log(windowScroll);
   });
 
+  $(window).scroll(function() {
+    var windowScroll = $(this).scrollTop();
+    function animateElementWidth(element) {
+        $(element).show().animate({
+          opacity: '1',
+          width: 490,
+        },500);
+    };
+    if (windowScroll > 560) {
+      animateElementWidth(".frontgradient-line");
+      animateElementWidth(".backgradient-line");
+        }
+    // console.log(windowScroll);
+  });
 
-  // $(".frontgradient-line",".backgradient-line").hide();
-  //
-  // $(".label-div").mouseenter(function() {
-  //   $(".frontgradient-line").fadeIn();
-  // });
-  //
-  // $(".label-div").mouseenter(function() {
-  //   $(".backgradient-line").fadeIn();
-  // });
-
-
-
-  // animateElement(".frontend-div",".frontend-badge");
-  // animateElement(".backend-div",".backend-badge");
+  // animateElement(".frontgradient-line");
+  // animateElement(".backgradient-line");
 
 });
