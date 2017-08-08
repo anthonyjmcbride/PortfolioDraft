@@ -1,20 +1,15 @@
 /* Background CSS */
-
 * {
   box-sizing: border-box;
 }
-
 li {
   list-style-type: none;
   /*Gets rid of bullet points on lists*/
 }
-
 a {
   text-decoration: none;
   /*gets rid of the underline under links*/
 }
-
-
 body {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   /*border: 30px #f5f5f5 solid;*/
