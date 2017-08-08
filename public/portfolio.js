@@ -1,15 +1,14 @@
 $(document).ready(function() {
 
 
+  // Animted.css effect | Entrance animation
+  $(".title-name").addClass('animated fadeInDown');
+
+  // Before hide functions
   function hideElement(element) {
     $(element).hide().animate({ opacity: '0'});
   };
-  function hideElementWidth(element) {
-    $(element).hide().animate({ opacity: '0', width: 0});
-  };
-
-  $(".title-name").addClass('animated fadeInDown');
-  // $(".fa.fa-angle-down").addClass('animated bounce');
+  function hideElementWidth(element) {$(element).hide().animate({ opacity: '0', width: 0});};
   hideElement(".frontend-badge");
   hideElement(".backend-badge");
   hideElement(".front-text");
@@ -17,7 +16,7 @@ $(document).ready(function() {
   hideElementWidth(".frontgradient-line");
   hideElementWidth(".backgradient-line");
 
-  // FADE IN ANIMATION
+  // FADE IN ANIMATION via scroll
   $(window).scroll(function() {
     // Measures scroll from Top of the page
     var windowScroll = $(this).scrollTop();
@@ -39,7 +38,7 @@ $(document).ready(function() {
   });
 
 
-// GRADIENT LINE ANIMATION
+  // GRADIENT LINE ANIMATION
   $(window).scroll(function() {
     // Measures scroll from Top of the page
     var windowScroll = $(this).scrollTop();
