@@ -9,14 +9,13 @@ $(document).ready(function() {
   };
 
   $(".title-name").addClass('animated fadeInDown');
+  $(".fa.fa-angle-down").addClass('animated bounce');
   hideElement(".frontend-badge");
   hideElement(".backend-badge");
   hideElement(".front-text");
   hideElement(".back-text");
   hideElementWidth(".frontgradient-line");
   hideElementWidth(".backgradient-line");
-
-
 
   // FADE IN ANIMATION
   $(window).scroll(function() {

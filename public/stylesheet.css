@@ -28,10 +28,15 @@ body {
 
 
 div.title-name {
-  margin: 170px 0 100px 0;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 190px, 20px 120px 20px;
   text-align: center;
-  height: 400px;
+  height: 710px;
+  background: -webkit-linear-gradient(left top, #f5f5f5 ,white, #f5f5f5);
+  border-radius: 10px;
 }
 p.name {
   /*text-decoration: underline;
@@ -104,6 +109,7 @@ div.fa-angle-down {
 
 .language-div {
   height: 700px;
+  background: -webkit-linear-gradient(left top, white, #f5f5f5 ,white);
   /*background: -webkit-linear-gradient(white, rgba(210, 210, 210,0.5),rgba(210, 210, 210,0.5), rgba(210, 210, 210,0.5), white);*/
   padding-top: 50px;
   /*padding-bottom: 110px;*/
@@ -122,7 +128,8 @@ div.fa-angle-down {
             justify-content: center;
             flex-wrap: wrap;
             height: 50%;
-            padding: 40px 30px 0 0;
+            margin-top: 55px;
+            padding: 0px 30px 0 0;
           }
           .backend-div {
             display: flex;
@@ -130,11 +137,14 @@ div.fa-angle-down {
             justify-content: flex-start;
             flex-wrap: wrap;
             height: 50%;
-            padding: 40px 30px 0 0;
+            padding: 0 30px 40px 0;
           }
             .frontend-badge {
               margin: 40px 0 0 30px;
             }
+              #bootstrap {
+                margin-bottom: 20px;
+              }
             .backend-badge {
               margin: 40px 0 0 30px;
             }
@@ -162,7 +172,7 @@ div.fa-angle-down {
             div.frontgradient-line, .backgradient-line {
               height: 2px;
               width: 100%;
-              background: -webkit-linear-gradient(left top, #1700B2,rgba(0, 255, 255, 0.7),white);
+              background: -webkit-linear-gradient(left top, #1700B2,rgba(0, 255, 255, 0.7));
               margin-bottom: 5px;
             }
             .front-text, .back-text {
@@ -199,7 +209,7 @@ span#projects {
   /*border-top: 2px #f5f5f5 solid;*/
   /*margin-bottom: 160px;*/
   /*margin-top: 100px;*/
-  background: -webkit-linear-gradient(top, white, white, #f5f5f5);
+  background: -webkit-linear-gradient(right top, white, white, #f5f5f5);
 }
 
 .active#dockit a {
