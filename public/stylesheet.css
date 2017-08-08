@@ -115,7 +115,7 @@ div.fa-angle-down {
         width: 50%;
         float: right;
       }
-          .frontend-div, .backend-div {
+          .frontend-div {
             /*border: 2px purple solid;*/
             display: flex;
             align-items: center;
@@ -124,6 +124,23 @@ div.fa-angle-down {
             height: 50%;
             padding: 40px 30px 0 0;
           }
+          .backend-div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            height: 50%;
+            padding: 40px 30px 0 0;
+          }
+            .frontend-badge {
+              margin: 40px 0 0 30px;
+            }
+            .backend-badge {
+              margin: 40px 0 0 30px;
+            }
+              #rails.backend-badge {
+                margin: 40px 0 0 90px;
+              }
       .container-left {
         height: 500px;
         width: 50%;
@@ -158,10 +175,6 @@ div.fa-angle-down {
               font-weight: 400;
               font-size: 20px
             }
-
-.frontend-badge, .backend-badge {
-  margin: 40px 0 0 30px;
-}
 
 
 
