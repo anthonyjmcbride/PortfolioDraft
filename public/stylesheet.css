@@ -118,7 +118,7 @@ div.title-name {
             /*border: 2px purple solid;*/
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             flex-wrap: wrap;
             height: 50%;
             margin-top: 55px;
@@ -139,7 +139,7 @@ div.title-name {
               margin: 40px 0 0 30px;
             }
               #rails.backend-badge {
-                margin: 40px 0 0 90px;
+                margin: 40px 0 0 20px;
               }
       .container-left {
         height: 500px;
