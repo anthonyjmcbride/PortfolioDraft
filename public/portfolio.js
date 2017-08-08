@@ -9,7 +9,7 @@ $(document).ready(function() {
   };
 
   $(".title-name").addClass('animated fadeInDown');
-  $(".fa.fa-angle-down").addClass('animated bounce');
+  // $(".fa.fa-angle-down").addClass('animated bounce');
   hideElement(".frontend-badge");
   hideElement(".backend-badge");
   hideElement(".front-text");
