@@ -70,7 +70,7 @@ div.title-name {
 
  /* Add a hover effect */
  .fa:hover {
-    color: #110089;
+    color: #1700B2;
     text-decoration: none;
      /*opacity: 0.7;*/
  }
@@ -139,7 +139,7 @@ div.title-name {
               margin: 40px 0 0 30px;
             }
               #rails.backend-badge {
-                margin: 40px 0 0 20px;
+                margin: 40px 0 0 10px;
               }
       .container-left {
         height: 500px;
