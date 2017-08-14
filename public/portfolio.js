@@ -11,10 +11,8 @@ $(document).ready(function() {
   function hideElementWidth(element) {$(element).hide().animate({ opacity: '0', width: 0});};
   hideElement(".frontend-badge");
   hideElement(".backend-badge");
-  hideElement(".front-text");
-  hideElement(".back-text");
-  hideElementWidth(".frontgradient-line");
-  hideElementWidth(".backgradient-line");
+  hideElement(".tech-stack-text");
+  hideElementWidth(".gradient-line");
 
   // FADE IN ANIMATION via scroll
   $(window).scroll(function() {
@@ -31,8 +29,7 @@ $(document).ready(function() {
       // Elements targeted
       animateElement(".frontend-badge");
       animateElement(".backend-badge");
-      animateElement(".front-text");
-      animateElement(".back-text");
+      animateElement(".tech-stack-text");
         }
     console.log(windowScroll);
   });
@@ -51,8 +48,7 @@ $(document).ready(function() {
     };
     if (windowScroll > 373) {
       // Elements tageted
-      animateElementWidth(".frontgradient-line");
-      animateElementWidth(".backgradient-line");
+      animateElementWidth(".gradient-line");
         }
   });
 
