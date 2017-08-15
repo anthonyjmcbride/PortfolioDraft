@@ -9,8 +9,8 @@ $(document).ready(function() {
     $(element).hide().animate({ opacity: '0'});
   };
   function hideElementWidth(element) {$(element).hide().animate({ opacity: '0', width: 0});};
-  hideElement(".frontend-badge");
-  hideElement(".backend-badge");
+  hideElement(".top-badge");
+  hideElement(".bottom-badge");
   hideElement(".tech-stack-text");
   hideElementWidth(".gradient-line");
 
@@ -27,8 +27,8 @@ $(document).ready(function() {
     };
     if (windowScroll > 380) {
       // Elements targeted
-      animateElement(".frontend-badge");
-      animateElement(".backend-badge");
+      animateElement(".top-badge");
+      animateElement(".bottom-badge");
       animateElement(".tech-stack-text");
         }
     console.log(windowScroll);

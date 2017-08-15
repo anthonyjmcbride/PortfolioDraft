@@ -74,6 +74,8 @@ div.title-name {
     color: #1700B2;
     text-decoration: none;
      /*opacity: 0.7;*/
+    -webkit-filter: drop-shadow(0 2px 3px rgba(23, 0, 178, 0.2));
+    filter: drop-shadow(0 2px 3px rgba(23, 0, 178, 0.2));
  }
 
 /*social icons list*/
@@ -106,41 +108,35 @@ div.title-name {
   background: -webkit-linear-gradient(left top, white, #f5f5f5 ,white);
   /*background: -webkit-linear-gradient(white, rgba(210, 210, 210,0.5),rgba(210, 210, 210,0.5), rgba(210, 210, 210,0.5), white);*/
   padding-top: 50px;
-  /*padding-bottom: 110px;*/
-  border: 1px navy solid;
 }
-      .container-right, .container-left {
-        border: 1px blue solid;
-      }
-      .container-right {
-        height: 500px;
-        width: 100%;
-        /*float: right;*/
-      }
+
           .top-badge-div, .bottom-badge-div {
-            /*border: 2px purple solid;*/
             display: flex;
             align-items: center;
             justify-content: space-around;
-            /*flex-wrap: wrap;*/
-            /*height: 50%;*/
             width: 100%;
             margin: 10px 0 10px 0;
-            /*padding: 0px 30px 0 0;*/
-            /*border: 1px red solid;*/
+            padding: 0 275px 0 275px;
+          }
+          .bottom-badge-div {
+            padding: 0 295px 0 295px;
           }
 
-            .frontend-badge {
-              /*border: 1px green solid;*/
+            .top-badge {
               margin: 40px 0 0 30px;
             }
-            .backend-badge {
-              /*border: 1px green solid;*/
+            .top-badge:hover {
+              -webkit-filter: drop-shadow(0 1px 5px #afafaf);
+              filter: drop-shadow(0 1px 5px #afafaf);
+            }
+            .bottom-badge {
               margin: 40px 0 0 30px;
             }
-              #rails.backend-badge {
-                margin: 40px 0 0 10px;
-              }
+            .bottom-badge:hover {
+              -webkit-filter: drop-shadow(0 1px 5px #afafaf);
+              filter: drop-shadow(0 1px 5px #afafaf);
+            }
+
       .container-left {
         height: 680px;
         width: 100%;
@@ -155,7 +151,7 @@ div.title-name {
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            height: 700px;
+            height: 630px;
             /*margin: 40px 0 70px 0;*/
             padding: 0 0 0 30px;
             /*border: 1px red solid;*/
