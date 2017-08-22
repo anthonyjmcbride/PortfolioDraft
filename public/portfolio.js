@@ -52,6 +52,7 @@ $(document).ready(function() {
         }
   });
 
+
   // $(window).scroll(function() {
   //   var windowScroll = $(this).scrollTop();
   //   function animatedFadeIn(element) {
