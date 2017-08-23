@@ -277,9 +277,11 @@ div.title-name {
   align-items: center;
 }
   div.laptop {
-    display: flex;
+    position: relative;
+    display: inline;
+    /*display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center;*/
     width: 50%;
     height: 100%;
     background-color: #f5f5f5;
@@ -288,10 +290,23 @@ div.title-name {
     border-bottom: 50px white solid;
     /*padding-left: 50px;*/
   }
-    img.macbook {
+    img#ipad {
       width: 125%;
+      position: absolute;
+      position:absolute;
+      top:-80px;
+      left:-70px;
+      z-index:0;
     }
 
+    }
+    img#display-content {
+      position:absolute;
+    /*
+    set top and left here
+    */
+      z-index:1;
+    }
 
 /*SECTION 4 FOOTER*/
 /*footer {
