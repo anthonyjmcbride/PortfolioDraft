@@ -269,6 +269,30 @@ div.title-name {
     /*border-radius: 6px;*/
   }
 
+.showcase {
+  height: 860px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+  div.laptop {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #f5f5f5;
+    border-top: 50px white solid;
+    border-right: 50px white solid;
+    border-bottom: 50px white solid;
+    /*padding-left: 50px;*/
+  }
+    img.macbook {
+      width: 125%;
+    }
+
+
 /*SECTION 4 FOOTER*/
 /*footer {
   background: -webkit-linear-gradient(top, #f5f5f5, #f5f5f5, rgba(51,51,51,0.1));
