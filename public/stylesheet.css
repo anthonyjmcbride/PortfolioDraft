@@ -7,7 +7,7 @@ li {
   /*Gets rid of bullet points on lists*/
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   /*gets rid of the underline under links*/
 }
 body {
@@ -40,8 +40,8 @@ div.title-name {
   p.name {
     /*text-decoration: underline;
     -webkit-text-decoration-color: rgba(0, 255, 255, 0.2);*/
-    font-weight: 500;
-    font-size: 60px;
+    font-weight: bold;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin: 15px;
@@ -52,8 +52,8 @@ div.title-name {
     text-align: center;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 20px;
-    font-weight: 400;
-    color: rgba(51,51,51,0.9);
+    font-weight: 500;
+    color: rgb(51,51,51);
   }
  /*SOCIAL MEDIA ICONS*/
 
@@ -152,23 +152,27 @@ div.title-name {
               margin-bottom: 5px;
             }
             .tech-stack-text{
-              font-size: 48px;
-              font-weight: bold;
               display: flex;
               justify-content: center;
-              flex-wrap: wrap;
+              flex-direction: column;
+              align-items: center;
               width: 490px;
               margin: 20px 0 20px 0;
               width: 100%;
               color: rgba(51,51,51);
               /*border: 1px green solid;*/
             }
-            .tech-stack-subtext{
-              font-weight: 400;
-              font-size: 20px;
-              color: rgba(51,51,51,0.8);
-              /*border: 1px green solid;*/
-            }
+              .tech-stack-title {
+                font-size: 46px;
+                font-weight: 500;
+                color: rgba(51,51,51);
+              }
+              .tech-stack-subtext{
+                font-weight: 400;
+                font-size: 21px;
+                color: rgba(51,51,51,0.9);
+                /*border: 1px green solid;*/
+              }
 
 
 /*SECTION 3 PROJECTS */
@@ -291,18 +295,19 @@ div.title-name {
     align-items: baseline;
   }
     div.description-container {
-      padding-left: 25px;
-      width: 50%;
-      height: 50%;
+      /*border: 1px green solid;*/
+      padding: 0 0 75px 60px;
+      width: 100%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
+      /*align-content: center;*/
     }
       div.description-title {
         width: 100%;
         margin-bottom: 20px;
-        border: 1px blue solid;
+        /*border: 1px blue solid;*/
         display: flex;
         justify-content: flex-start;
         font-size: 32px;
@@ -310,11 +315,26 @@ div.title-name {
         color: rgb(51,51,51);
       }
         div.description-body {
+          /*border: 1px purple solid;*/
           font-size: 20px;
           color: rgb(51,51,51);
           display: flex;
           justify-content: flex-start;
         }
+        div.example-buttons {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          /*width: 100%;
+          height: 15%;*/
+          margin-top: 50px;
+        }
+          .button1, .button2 {
+            margin-left: 18px;
+            font-size: 18px;
+            font-weight: 300;
+          }
+
   div.laptop {
     border-radius: 10px;
     position: relative;
