@@ -1,0 +1,9 @@
+@media viewport and (max-width: 414px) {
+  body {
+    background: blue;
+  }
+  div.name {
+    margin: 0px;
+    background: blue;
+  }
+}

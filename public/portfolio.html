@@ -5,24 +5,36 @@
   <head>
     <meta charset="utf-8">
       <title>🗂 McBride's Portfolio</title>
+      <!-- <link rel="stylesheet" href="mediaqueries.css"> -->
       <link rel="stylesheet" href="stylesheet.css">
       <link rel="stylesheet" href="animate.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="portfolio.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
     <body bgcolor="white">
       <!-- SECTION 1 -->
       <div class="title-name" id="front">
-        <p class="name">Anthony McBride</p>
+        <div class="name">
+          <span id="first-name">Anthony</span>
+          <span id="last-name">McBride</span>
+        </div>
         <!-- conatct info -->
-        <p class="contact-info">anthonyjmcbride@icloud.com (305) 988-5498</p>
+        <div class="contact-info">
+          <div class="contact-info-email">
+            anthonyjmcbride@icloud.com
+          </div>
+          <div class="contact-info-number">
+            (305) 988-5498
+          </div>
+        </div>
         <!-- social icons -->
         <ul class="social-list">
-          <li><a href="https://github.com/anthonyjmcbride" class="fa fa-github" aria-hidden="true"></a></li>
-          <li><a href="https://www.linkedin.com/in/anthony-mcbride-32562ba1/" class="fa fa-linkedin" aria-hidden="true"></a></li>
-          <li><a href="https://www.facebook.com/AnthonyJamesMcbride" class="fa fa-facebook-official" aria-hidden="true"></a></li>
-          <li><a href="https://www.instagram.com/anthonyjmcbride/" class="fa fa-instagram" aria-hidden="true"></a></li>
+          <li id="github"><a href="https://github.com/anthonyjmcbride" class="fa fa-github" aria-hidden="true"></a></li>
+          <li id="linkedin"><a href="https://www.linkedin.com/in/anthony-mcbride-32562ba1/" class="fa fa-linkedin" aria-hidden="true"></a></li>
+          <li id="facebook"><a href="https://www.facebook.com/AnthonyJamesMcbride" class="fa fa-facebook-official" aria-hidden="true"></a></li>
+          <li id="instagram"><a href="https://www.instagram.com/anthonyjmcbride/" class="fa fa-instagram" aria-hidden="true"></a></li>
         </ul>
         <!-- down arrow -->
        <a href="#intro"><div class="fa fa-angle-down" aria-hidden="true"></div></a>
@@ -33,21 +45,21 @@
        <div class="container-left">
 
         <div id="intro" class="tech-stack-div">
-          <div class="gradient-line"><br></div><!-- gradient line -->
+          <div class="gradient-line"><br></div>
             <div class="tech-stack-text">
-              <span class="tech-stack-title">Front End Skill. Back End Magic.</span>
+              <span class="tech-stack-title">Front End Skill Back End Magic.</span>
               <span class="tech-stack-subtext">Born with a passion to create. Equipped with the ability to dazzle.</span>
             </div>
             <div class="top-badge-div">
-              <img id="html" class="top-badge" src="images/html.png" alt="" height="105px">
-              <img id="css3" class="top-badge" src="images/css3.png" alt="" height="105px">
-              <img id="js" class="top-badge" src="images/js.png" alt="" height="111px">
-              <img id="bootstrap" class="top-badge" src="images/bootstraplogo.png" alt="" height="115px">
+              <img id="html" class="top-badge" src="images/html.png" alt="" height="80px">
+              <img id="css3" class="top-badge" src="images/css3.png" alt="" height="80px">
+              <img id="js" class="top-badge" src="images/js.png" alt="" height="86px">
+              <img id="bootstrap" class="top-badge" src="images/bootstraplogo.png" alt="" height="90px">
             </div>
             <div class="bottom-badge-div">
-              <img id="postgresql" class="bottom-badge" src="images/postgresql.png" alt="" height="115px">
-              <img id="angular" class="bottom-badge" src="images/AngularJS.svg" alt="" height="105px">
-              <img id="rails" class="bottom-badge" src="images/rails.png" alt="" height="105px">
+              <img id="postgresql" class="bottom-badge" src="images/postgresql.png" alt="" height="90px">
+              <img id="angular" class="bottom-badge" src="images/AngularJS.svg" alt="" height="80px">
+              <img id="rails" class="bottom-badge" src="images/rails.png" alt="" height="80px">
             </div>
           </div>
         </div>
@@ -55,17 +67,17 @@
       </div>
 
       <!-- SECTION 3 -->
-      <!-- <div class="project-div">
-        <div id="exTab3" class="container"> -->
+      <div class="project-div">
+        <div id="exTab3" class="container">
           <!-- TAB LIST  -->
-          <!-- <ul class="nav nav-pills" id="nav-pills-development">
+          <ul class="nav nav-pills" id="nav-pills-development">
             <li class="active" id="dockit"><a href="#1b" data-toggle="tab">DockIT</a></li>
             <li id="dockit"><a href="#2b" data-toggle="tab">Design Mockup</a></li>
             <li id="dockit"><a href="#3b" data-toggle="tab">Mockup Site</a></li>
             <li id="dockit"><a href="#4b" data-toggle="tab">URL Shortner</a></li>
-          </ul> -->
+          </ul>
           <!-- TAB CONTENT -->
-          <!-- <div class="tab-content clearfix" id="outer1">
+          <div class="tab-content clearfix" id="outer1">
       			  <div class="tab-pane active fade in" id="1b">
                 <p class="tab-content" id="development-content">
                   <span id="tag-line">View. Dock. Enjoy.</span><br> DockIT is an event tracking app. It collects events going on around your city/state/country and displays them in one centralized location. You have the option to view, dock(save), and sync desired events.
@@ -87,7 +99,9 @@
                   <span id="tag-line">Practice makes perfect.</span><br> Using HTML/CSS, I recreated an ecommerce homepage from scratch. This gave me a good amount of
                   practice with webpage layout, content placement, and styling among many other things. <a href="https://github.com/anthonyjmcbride/DesignMockup" class="github">View the code!</a><br>
                 <br>
-                <center><img src="images/DesignMockup.png" alt="" width="690" height="380"></center>
+                <div class="tech-demo-div">
+                  <center><img id="mockup-screenshot" src="images/DesignMockup.png" alt="" width="690" height="380"></center>
+                </div>
                 <br>
                 </p>
               </div>
@@ -97,7 +111,9 @@
                    Using Ruby on Rails, I created an ecommerce web app that allows Administrative users to view, create, edit, and destroy products. Security and overall authentication
                    was handled with bcrpyt. The paperclip gem handled photo uploads. <a href="https://github.com/anthonyjmcbride/Mockup_site" class="github">View the code!</a><br>
                  <br>
-                 <center><img src="images/Mockup-Site.png" alt="" width="690" height="380"></center>
+                 <div class="tech-demo-div">
+                   <center><img id="mockup-screenshot" src="images/Mockup-Site.png" alt="" width="690" height="380"></center>
+                 </div>
                  <br>
                 </p>
               </div>
@@ -106,41 +122,103 @@
                   <span id="tag-line">Shrt & Smpl.</span><br> A simple fix for loooooooong URLs. Users will be able to enter a long unattractive url and create a short memorable one. The user can view all custom made URLs in one spot and travel to those pages with just one click.
                   <a href="https://github.com/anthonyjmcbride/URL-Shortener" class="github">View the code!</a></p>
                   <br>
-                  <center><iframe width="690" height="380" src="https://www.youtube.com/embed/ycJUjh8hzQM" frameborder="0" allowfullscreen></iframe></center>
+                  <div class="tech-demo-div">
+                    <center><iframe width="690" height="380" src="https://www.youtube.com/embed/ycJUjh8hzQM" frameborder="0" allowfullscreen></iframe></center>
+                  </div>
                   <br>
       				 </div>
       			</div>
           </div>
 
-      </div> -->
+      </div>
 
-      <div class="showcase">
-        <!-- left side -->
+      <!-- <div class="showcase">
+        left side
         <div class="description-text">
-          <div class="description-container">
-            <div class="description-title">
-              <span id="front-end-title">eCommerce Mockup</span>
+          <div class="container description-container">
+
+            <div class="tab-pane active fade in" id="pro1">
+              <div class="description-title">
+                <span id="front-end-title">eCommerce Mockup</span>
+              </div>
+              <div class="description-body">
+                Making practice perfect. Using HTML/CSS, I recreated an ecommerce homepage from scratch. This gave me a great amount of
+                patience and practice with webpage layout, content placement, and styling among many other skills. This time we head to the back-end of web development.
+                With this project I was focused on functionality. Using Ruby on Rails, I created an ecommerce web app that allows Administrative users to view, create, edit, and destroy products.
+                Security and overall authentication was handled with bcrpyt. The paperclip gem handled photo uploads.
+              </div>
             </div>
-            <div class="description-body">
-              Making practice perfect. Using HTML/CSS, I recreated an ecommerce homepage from scratch. This gave me a great amount of
-              patience and practice with webpage layout, content placement, and styling among many other skills. This time we head to the back-end of web development.
-              With this project I was focused on functionality. Using Ruby on Rails, I created an ecommerce web app that allows Administrative users to view, create, edit, and destroy products.
-              Security and overall authentication was handled with bcrpyt. The paperclip gem handled photo uploads.
+
+            <div class="tab-pane fade" id="pro2">
+              <div class="description-title">
+                <span id="front-end-title">eCommerce Mockup</span>
+              </div>
+              <div class="description-body">
+                Making practice perfect. Using HTML/CSS, I recreated an ecommerce homepage from scratch. This gave me a great amount of
+                patience and practice with webpage layout, content placement, and styling among many other skills. This time we head to the back-end of web development.
+                With this project I was focused on functionality. Using Ruby on Rails, I created an ecommerce web app that allows Administrative users to view, create, edit, and destroy products.
+                Security and overall authentication was handled with bcrpyt. The paperclip gem handled photo uploads.
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="pro3">
+              <div class="description-title">
+                <span id="front-end-title">eCommerce Mockup</span>
+              </div>
+              <div class="description-body">
+                Making practice perfect. Using HTML/CSS, I recreated an ecommerce homepage from scratch. This gave me a great amount of
+                patience and practice with webpage layout, content placement, and styling among many other skills. This time we head to the back-end of web development.
+                With this project I was focused on functionality. Using Ruby on Rails, I created an ecommerce web app that allows Administrative users to view, create, edit, and destroy products.
+                Security and overall authentication was handled with bcrpyt. The paperclip gem handled photo uploads.
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="pro4">
+              <div class="description-title">
+                <span id="front-end-title">eCommerce Mockup</span>
+              </div>
+              <div class="description-body">
+                Making practice perfect. Using HTML/CSS, I recreated an ecommerce homepage from scratch. This gave me a great amount of
+                patience and practice with webpage layout, content placement, and styling among many other skills. This time we head to the back-end of web development.
+                With this project I was focused on functionality. Using Ruby on Rails, I created an ecommerce web app that allows Administrative users to view, create, edit, and destroy products.
+                Security and overall authentication was handled with bcrpyt. The paperclip gem handled photo uploads.
+              </div>
             </div>
 
             <div class="example-buttons">
                 <a class="button1" href="#">Website</a>
                 <a class="button2" href="#">Code</a>
             </div>
-
+            LINE TAB LINKS AT BOTTOM OF SHOWCASE DIV
+            <div class="icon-div">
+              <ul id="line-list">
+                <li id="line-dash" class="active"><a href="#pro1" id="first" class="active fa fa-window-minimize" aria-hidden="true" data-toggle="tab"></a></li>
+                <li id="line-dash"><a href="#pro2" id="second" class="fa fa-window-minimize" aria-hidden="true"></a></li>
+                <li id="line-dash"><a href="#pro3" id="third" class="fa fa-window-minimize" aria-hidden="true"></a></li>
+                <li id="line-dash"><a href="#pro4" id="fourth" class="fa fa-window-minimize" aria-hidden="true"></a></li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </div> -->
         <!-- right side  -->
-        <div class="laptop">
-          <img id="ipad" src="images/iPad.png" alt="">
-          <!-- <img id="d-content" src="images/DesignMockup.png" alt="" height="200px"> -->
+        <!-- <div class="laptop"> -->
+          <!-- <img id="ipad" src="images/iPad.png" alt="" height="800px" width="200px"> -->
+        <!-- </div>
+      </div> -->
+
+
+      <!-- <div class="showcase-two">
+        <div class="left-square">
+          DockIT
         </div>
-      </div>
+        <div class="middle-square">
+          Blog
+        </div>
+        <div class="right-square">
+          URLShortnr
+        </div>
+
+      </div> -->
 
 <!--                       ***POSSIBLE FEATURE LATER ON***                                  -->
       <!-- <div class="showcase container">
@@ -213,7 +291,7 @@
       </div>
     </div> -->
 
-    </div>
+    <!-- </div> -->
 
 
 
