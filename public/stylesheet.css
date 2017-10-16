@@ -478,7 +478,7 @@ div.title-name {
    }*/
 
 
-
+/*iPHONE 6Plus + 7Plus + 8Plus*/
    @media screen and (max-width: 414px){
      body {
        /*border: 1px blue solid;*/
@@ -531,12 +531,35 @@ div.title-name {
     }
 
    }
-
+/*iPHONE 6 + 7 + 8 + Galaxy S5*/
    @media screen and (max-width: 375px) {
 
      iframe, img#mockup-screenshot {
-       width: 370px;
-       height: 208px;
+       width: 355px;
+       height: 200px;
+     }
+
+   }
+
+/*iPHONE 5 + 5s*/
+   @media screen and (max-width: 320px) {
+
+
+     span.tech-stack-title {
+       font-size: 35px;
+     }
+     .top-badge, .bottom-badge {
+       margin-left: 7px;
+     }
+
+     #dockit-link {
+       padding: 5px;
+     }
+
+
+     iframe, img#mockup-screenshot {
+       width: 315px;
+       height: 177px;
      }
 
    }
