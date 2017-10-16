@@ -551,12 +551,9 @@ div.title-name {
      .top-badge, .bottom-badge {
        margin-left: 7px;
      }
-
      #dockit-link {
        padding: 5px;
      }
-
-
      iframe, img#mockup-screenshot {
        width: 315px;
        height: 177px;
