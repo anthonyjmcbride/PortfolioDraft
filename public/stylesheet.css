@@ -531,3 +531,12 @@ div.title-name {
     }
 
    }
+
+   @media screen and (max-width: 375px) {
+
+     iframe, img#mockup-screenshot {
+       width: 370px;
+       height: 208px;
+     }
+
+   }
