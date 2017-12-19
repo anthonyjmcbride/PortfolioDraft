@@ -164,8 +164,9 @@ div.title-name {
 
 /*SECTION 3 PROJECTS */
 .project-div {
-  height: 860px;
-  padding-top: 50px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-radius: 10px;
   background: -webkit-linear-gradient(right top, white, white, #f5f5f5);
 }
